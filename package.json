@@ -1,0 +1,22 @@
+{
+  "name": "canbus-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "FocusThen <mmucahit.tezcan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "canvas-gauges": "^2.1.7",
+    "express": "^4.17.1",
+    "node-can": "0.0.3-alpha.2",
+    "serialport": "^9.0.0",
+    "socket.io": "^2.3.0"
+  }
+}
